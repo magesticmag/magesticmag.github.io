@@ -3015,7 +3015,18 @@ footer h4.h05::after {
     display: inline-block;
     padding-right: 10px;
 }
+@media only screen and (maxwidth="600") {
+.teammembers .memberali {
+  display: block;
+}
+.teammembers .memberali img{
+  height: 50px;
+  width: 75px;
+  border-radius: 10px;
+}
 
+
+}
 /* Yousaf */
 .teammembers .memberyousaf{
   display: inline-block;
