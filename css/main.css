@@ -2988,7 +2988,14 @@ footer h4.h05::after {
 .teammembers{
   width: 100%;
   height: 500px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.secondteammembers{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 50px;
 }
  /* Ali */
 .teammembers .memberali{
@@ -3027,6 +3034,26 @@ footer h4.h05::after {
     display: inline-block;
     padding-right: 10px;
 }
+
+/* Mehr */
+.secondteammembers .membermehr{
+  display: inline-block;
+  float: left;
+}
+.secondteammembers .membermehr img{
+  height: 341.3px;
+  width: 227.5px;
+  border-radius: 10px;
+}
+
+.secondteammembers .membermehr .member-social-list{
+  display: inline;
+}
+.secondteammembers .membermehr .member-social-list li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
 
 /* Tic Tac Toe */
 .tictactoe{
