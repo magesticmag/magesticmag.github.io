@@ -5,12 +5,12 @@
 
 document.addEventListener('DOMContentLoaded', function () {
   particleground(document.getElementById('particles'), {
-    dotColor: '#5cbdaa',
-    lineColor: '#5cbdaa',
+    dotColor: 'white',
+    lineColor: '#f9a828',
     directionX: 'right',
     directionY: 'up',
-    density: 5000,
-    proximity: 100,
+    density: 6000,
+    proximity: 70,
   });
   var intro = document.getElementById('intro');
   intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
